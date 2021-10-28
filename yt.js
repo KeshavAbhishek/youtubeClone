@@ -18,4 +18,22 @@ document.getElementById('watch').addEventListener('mousedown',()=>{
     document.getElementById('mainVideo').style.marginBottom='10px';
 
     document.getElementById('linkEntry').value='';
+    document.getElementById('fullScreen').style.display='block';
+});
+
+document.getElementById('fullScreen').addEventListener('mousedown',()=>{
+    if(document.getElementById('fullScreen').innerText=='Full Screen'){
+        document.getElementById('vidCon').style.width='100vw';
+        document.getElementById('vidCon').style.height='100vh';
+        document.getElementById('mainVideo').style.width='100%';
+        document.getElementById('mainVideo').style.height='100%';
+        document.getElementById('ytlogoFrame').style.display='none';
+        document.getElementById('kindOfController').style.display='none';
+        document.getElementById('fullScreen').innerText='Exit Full Screen';
+    }
+    else if(document.getElementById('fullScreen').innerText=='Exit Full Screen'){
+        document.getElementById('ytlogoFrame').style.display='block';
+        document.getElementById('kindOfController').style.display='block';
+        document.getElementById('fullScreen').innerText='Full Screen';
+    };
 });
