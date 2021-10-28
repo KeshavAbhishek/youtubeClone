@@ -35,5 +35,7 @@ document.getElementById('fullScreen').addEventListener('mousedown',()=>{
         document.getElementById('ytlogoFrame').style.display='block';
         document.getElementById('kindOfController').style.display='block';
         document.getElementById('fullScreen').innerText='Full Screen';
+        document.getElementById('mainVideo').style.width='95vw';
+        document.getElementById('mainVideo').style.height='80vh';
     };
 });
