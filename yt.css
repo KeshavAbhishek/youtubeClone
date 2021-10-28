@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+embed{
+    display: none;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.videoContainer{
+    margin-bottom: 5vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topLabel img{
+    width: 30vw;
+    -webkit-user-drag: none;
+}
+
+.topLabel{
+    box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    border-radius: 5vh;
+    overflow: hidden;
+    width: 97%;
+    text-align: center;
+}
+
+#linkEntry{
+    width: 75vw;
+    font-family: Baloo, 'Baloo Bhai 2', cursive;
+    font-size: 2vw;
+    border: 0;
+    outline: 0;
+    border-radius: 0.7vw;
+    text-align: center;
+    background: linear-gradient(to right,red,black);
+    color: white;
+}
+
+#linkEntry::placeholder{
+    color: white;
+}
+
+#watch{
+    width: 20vw;
+    font-family: Baloo, 'Baloo Bhai 2', cursive;
+    font-size: 2vw;
+    border: 0;
+    outline: 0;
+    border-radius: 0.7vw;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right,black,red);
+    color: white;
+    margin-left: 0.5vw;
+}
+
+.entryBox-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+}
