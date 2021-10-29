@@ -9,11 +9,14 @@ document.getElementById('watch').addEventListener('mousedown',()=>{
         videoLink=`https://www.youtube.com/embed/${videoLink[3]}`;
     }
 
-    document.getElementById('mainVideo').style.display='inherit';
-    document.getElementById('mainVideo').setAttribute('src',`${videoLink}`);
+    document.getElementById('vidCon').style.display='inherit';
+    document.getElementById('vidCon').setAttribute('src',`${videoLink}`);
 
-    document.getElementById('mainVideo').style.width='95vw';
-    document.getElementById('mainVideo').style.height='80vh';
+    document.getElementById('vidCon').style.width='95vw';
+    document.getElementById('vidCon').style.height='80vh';
+
+    document.getElementById('mainVideo').style.width='100%';
+    document.getElementById('mainVideo').style.height='100%';
 
     document.getElementById('mainVideo').style.marginBottom='10px';
 
@@ -35,7 +38,7 @@ document.getElementById('fullScreen').addEventListener('mousedown',()=>{
         document.getElementById('ytlogoFrame').style.display='block';
         document.getElementById('kindOfController').style.display='block';
         document.getElementById('fullScreen').innerText='Full Screen';
-        document.getElementById('mainVideo').style.width='95vw';
-        document.getElementById('mainVideo').style.height='80vh';
+        document.getElementById('vidCon').style.width='95vw';
+        document.getElementById('vidCon').style.height='80vh';
     };
 });
