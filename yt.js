@@ -10,7 +10,7 @@ document.getElementById('watch').addEventListener('mousedown',()=>{
     }
 
     document.getElementById('vidCon').style.display='inherit';
-    document.getElementById('vidCon').setAttribute('src',`${videoLink}`);
+    document.getElementById('mainVideo').setAttribute('src',`${videoLink}`);
 
     document.getElementById('vidCon').style.width='95vw';
     document.getElementById('vidCon').style.height='80vh';
