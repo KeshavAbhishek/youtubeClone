@@ -9,7 +9,7 @@ document.getElementById('watch').addEventListener('mousedown',()=>{
         videoLink=`https://www.youtube.com/embed/${videoLink[3]}`;
     }
 
-    document.getElementById('vidCon').style.display='inherit';
+    document.getElementById('mainvideo').style.display='inherit';
     document.getElementById('mainVideo').setAttribute('src',`${videoLink}`);
 
     document.getElementById('vidCon').style.width='95vw';

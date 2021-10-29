@@ -6,13 +6,9 @@
 }
 
 embed{
-    /* display: none; */
+    display: none;
     width: 100%;
     border: 2px solid red;
-}
-
-#vidCon{
-    display: none;
 }
 
 .videoContainer{
